@@ -27,7 +27,7 @@ app.post("/form", async (req, res) => {
 
     const messageData = {
       from: `${firstname} ${lastname} <${email}>`,
-      to: "marchetto.lua@gmai.com",
+      to: "marchetto.lua@gmail.com",
       subject: `Formulaire JS`,
       text: message,
     };
@@ -45,6 +45,6 @@ app.post("/form", async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
+app.listen(5502, () => {
   console.log("server is listening");
 });
