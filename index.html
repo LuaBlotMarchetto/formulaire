@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Formulaire</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form>
+        <h2>Formulaire de contact</h2>
+        <div>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            value=""
+            placeholder="Prénom"
+          />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            value=""
+            placeholder="Nom"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value=""
+            placeholder="Email"
+          />
+          <input
+            type="text"
+            name="subjet"
+            id="subjet"
+            value=""
+            placeholder="Sujet"
+          />
+          <textarea
+            rows="10"
+            name="message"
+            id="message"
+            value=""
+            placeholder="Votre message ici ..."
+          ></textarea>
+        </div>
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
